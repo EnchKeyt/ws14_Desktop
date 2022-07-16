@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище ws14Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Sotrudnikis">
+    <Key>
+      <PropertyRef Name="IdSotrudnik" />
+    </Key>
+    <Property Name="IdSotrudnik" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdDolznost" Type="nvarchar(max)" />
+    <Property Name="Должность" Type="nvarchar" MaxLength="255" />
+    <Property Name="Сотрудник" Type="nvarchar" MaxLength="255" />
+    <Property Name="Дата_рождения" Type="date" />
+    <Property Name="Телефон" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityContainer Name="Хранилище ws14ModelContainer">
+    <EntitySet Name="Sotrudnikis" EntityType="Self.Sotrudnikis" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

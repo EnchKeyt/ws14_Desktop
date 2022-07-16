@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ws14ModelContainer" CdmEntityContainer="ws14Entities1">
+    <EntitySetMapping Name="Sotrudnikis">
+      <EntityTypeMapping TypeName="ws14Model.Sotrudnikis">
+        <MappingFragment StoreEntitySet="Sotrudnikis">
+          <ScalarProperty Name="IdSotrudnik" ColumnName="IdSotrudnik" />
+          <ScalarProperty Name="IdDolznost" ColumnName="IdDolznost" />
+          <ScalarProperty Name="Должность" ColumnName="Должность" />
+          <ScalarProperty Name="Сотрудник" ColumnName="Сотрудник" />
+          <ScalarProperty Name="Дата_рождения" ColumnName="Дата_рождения" />
+          <ScalarProperty Name="Телефон" ColumnName="Телефон" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

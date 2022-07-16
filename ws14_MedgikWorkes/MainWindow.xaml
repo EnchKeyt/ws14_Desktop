@@ -1,0 +1,290 @@
+﻿<Window x:Class="ws14_MedgikWorkes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ws14_MedgikWorkes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="87*" />
+            <ColumnDefinition Width="188*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*" />
+            <RowDefinition Height="61*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TreeView MouseLeftButtonDown="tvSections_MouseLeftButtonUp" x:Name="tvSections"  Margin="2,2,2,2" Grid.RowSpan="2">
+
+
+            <TreeViewItem Header="Административный департамент">
+                <TreeViewItem.Tag>
+                    <TextBlock Text="General Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                </TreeViewItem.Tag>
+
+                <TreeViewItem Header="Display">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Display Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+                <TreeViewItem Header="Proofing">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Proofing Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+                <TreeViewItem Header="Save">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Save Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+                <TreeViewItem Header="Language">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Language Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Академия МэджикКлеверВоркерс">
+                <TreeViewItem.Tag>
+                    <TextBlock Text="Advanced Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                </TreeViewItem.Tag>
+
+                <TreeViewItem Header="Add-Ins">
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Add-Ins Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Аппарат управления">
+                <TreeViewItem.Tag>
+                    <TextBlock Text="User Interface" TextAlignment="Center" VerticalAlignment="Center"/>
+                </TreeViewItem.Tag>
+
+                <TreeViewItem Header="Customize Ribbon">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Customize Ribbon Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+                <TreeViewItem Header="Quick Access Toolbar">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Quick Access Toolbar Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Департамент коммуникаций">
+                <TreeViewItem.Tag>
+                    <TextBlock Text="User Interface" TextAlignment="Center" VerticalAlignment="Center"/>
+                </TreeViewItem.Tag>
+
+                <TreeViewItem Header="Customize Ribbon">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Customize Ribbon Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+                <TreeViewItem Header="Quick Access Toolbar">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Quick Access Toolbar Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Департамент маркетинга и партнерских отношений">
+                <TreeViewItem.Tag>
+                    <TextBlock Text="User Interface" TextAlignment="Center" VerticalAlignment="Center"/>
+                </TreeViewItem.Tag>
+
+                <TreeViewItem Header="Customize Ribbon">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Customize Ribbon Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+                <TreeViewItem Header="Quick Access Toolbar">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Quick Access Toolbar Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Департамент по организации корпоративов">
+                <TreeViewItem.Tag>
+                    <TextBlock Text="User Interface" TextAlignment="Center" VerticalAlignment="Center"/>
+                </TreeViewItem.Tag>
+
+                <TreeViewItem Header="Customize Ribbon">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Customize Ribbon Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+                <TreeViewItem Header="Quick Access Toolbar">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Quick Access Toolbar Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Департамент по работе с персоналом">
+                <TreeViewItem.Tag>
+                    <TextBlock Text="User Interface" TextAlignment="Center" VerticalAlignment="Center"/>
+                </TreeViewItem.Tag>
+
+                <TreeViewItem Header="Customize Ribbon">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Customize Ribbon Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+                <TreeViewItem Header="Quick Access Toolbar">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Quick Access Toolbar Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Департамент по работе с промышленностью">
+                <TreeViewItem.Tag>
+                    <TextBlock Text="User Interface" TextAlignment="Center" VerticalAlignment="Center"/>
+                </TreeViewItem.Tag>
+
+                <TreeViewItem Header="Customize Ribbon">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Customize Ribbon Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+                <TreeViewItem Header="Quick Access Toolbar">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Quick Access Toolbar Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Департамент стратегии и планирования">
+                <TreeViewItem.Tag>
+                    <TextBlock Text="User Interface" TextAlignment="Center" VerticalAlignment="Center"/>
+                </TreeViewItem.Tag>
+
+                <TreeViewItem Header="Customize Ribbon">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Customize Ribbon Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+                <TreeViewItem Header="Quick Access Toolbar">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Quick Access Toolbar Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Управление Финансового планирования и контроля">
+                <TreeViewItem.Tag>
+                    <TextBlock Text="User Interface" TextAlignment="Center" VerticalAlignment="Center"/>
+                </TreeViewItem.Tag>
+
+                <TreeViewItem Header="Customize Ribbon">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Customize Ribbon Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+                <TreeViewItem Header="Quick Access Toolbar">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Quick Access Toolbar Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Финансово-экономический департамент">
+                <TreeViewItem.Tag>
+                    <TextBlock Text="User Interface" TextAlignment="Center" VerticalAlignment="Center"/>
+                </TreeViewItem.Tag>
+
+                <TreeViewItem Header="Customize Ribbon">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Customize Ribbon Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+                <TreeViewItem Header="Quick Access Toolbar">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Quick Access Toolbar Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Юридический департамент">
+                <TreeViewItem.Tag>
+                    <TextBlock Text="User Interface" TextAlignment="Center" VerticalAlignment="Center"/>
+                </TreeViewItem.Tag>
+
+                <TreeViewItem Header="Customize Ribbon">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Customize Ribbon Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+                <TreeViewItem Header="Quick Access Toolbar">
+
+                    <TreeViewItem.Tag>
+                        <TextBlock Text="Quick Access Toolbar Section" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </TreeViewItem.Tag>
+                </TreeViewItem>
+            </TreeViewItem>
+
+        </TreeView>
+
+        <ListView Grid.Column="1" x:Name="ReceptView"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="25,126,25,46" Grid.RowSpan="2" Grid.ColumnSpan="2" >
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center"></WrapPanel>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Image Width="150" HorizontalAlignment="Center" Source="{Binding DisplayedImagePath}" x:Name="SotrudnikPhoto"></Image>
+                        <TextBlock HorizontalAlignment="Left" Margin="5"  Grid.Row="1" Text="{Binding Сотрудник}"></TextBlock>
+                        <TextBlock  Grid.Row="2" TextWrapping="Wrap" Text="{Binding Дата_рождения}"></TextBlock>
+                        <TextBlock   Grid.Row="3" TextWrapping="Wrap" Text="{Binding Телефон}"></TextBlock>
+
+
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <TextBox Grid.Row="0" Grid.Column="2" Margin="13,50,178,37" x:Name="fioPoiskTB" TextChanged="fioPoiskTB_TextChanged"/>
+        <TextBlock   Text="ФИО:" HorizontalAlignment="Left" FontSize="20" VerticalAlignment="Center" Grid.Column="1" Height="26" Margin="120,0,0,0" Width="49"></TextBlock>
+
+
+    </Grid>
+</Window>
